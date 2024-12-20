@@ -1,0 +1,50 @@
+body{
+  padding: 15px;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  gap:10px;
+  background:#ebebeb;
+  border-radius:5px;
+  padding: 10px 15px;
+}
+nav ul li a{
+  text-decoration: none;
+}
+.postlist {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.postlist li{
+  padding: 10px;
+  background:#ebebeb;
+  border-radius:5px;
+}
+.profile img{
+  width: 100px;
+  height: 100px;
+  border-radius:50%;
+  overflow:hidden;
+  border:3px solid #ebebeb;
+}
+
+.hidden {
+  display: none;
+}
+
+.profile label {
+  padding: 5px;
+  background: #eee;
+  color:#000;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.profile p {
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
